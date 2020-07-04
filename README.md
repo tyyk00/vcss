@@ -17,6 +17,23 @@ A 1% improved scss plugin
 ## Cool!
 > Thank you!
 
+## Cli options ?
+> you have 2 options for now `[--r/--replace]` `[--w/--watch]`
+### Examples on cli usage
+```
+vcss file.scss 
+#will replace variables and compile it to css file
+```
+
+```
+vcss file.scss --r 
+#will replace variables and produce a scss (if you're using a bundler)
+```
+
+```
+vcss *.scss --w
+#will watch all scss files and compile them for you <3
+```
 ## Any example?
 > sure
 
@@ -58,3 +75,6 @@ body {
   color: var(--fg);
  }
 ```
+
+## ToDo
+* Create plugins for bundlers
