@@ -1,0 +1,26 @@
+{
+  "name": "vcss",
+  "version": "1.0.0",
+  "description": "A 1% improved scss plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyyk00/vcss.git"
+  },
+  "keywords": [
+    "css",
+    "scss"
+  ],
+  "author": "tyyk00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyyk00/vcss/issues"
+  },
+  "homepage": "https://github.com/tyyk00/vcss#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
